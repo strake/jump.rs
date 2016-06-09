@@ -1,0 +1,10 @@
+[package]
+name = "jump"
+version = "0.1.0"
+authors = ["M Farkas-Dyck <strake888@gmail.com>"]
+build = "build.rs"
+description = "Non-local jumps"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+void = { version = "1", default-features = false }
